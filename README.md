@@ -2,6 +2,7 @@
 A sample resource for doortuning within FiveM
 
 ## Explanation
+As there is a need to replace the `gta5.meta` file, all doortuning for a server should happen within a single doortuning resource / file. 
 
 ### gta5.meta
 This file defines where certain necessary singleton files are located. It is necessary for this to be replaced to define where the doortuning file should be retrieved from.
