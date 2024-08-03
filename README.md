@@ -19,7 +19,7 @@ This section is where door behaviors are defined. These definitions can be used 
   - \<Name\>
     - The name that will be used to reference the following set of parameters for a door
   - \<Tuning\>
-    - \<AutoOpenVolumeOffset x="0" y="0" z="0" /\>
+    - \<AutoOpenVolumeOffset x="0" y="0" z="0"\>
       - Offset from the center of the door that the auto open volume should be placed to start looking for a reason to auto-open
     - \<Flags\>
       - Optional flags that you want to apply to the door that can specificy specific behaviors
