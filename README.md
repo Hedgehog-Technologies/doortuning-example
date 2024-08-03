@@ -10,7 +10,9 @@ This file defines where certain necessary singleton files are located. It is nec
 In `gta5.meta` search for "DOOR_TUNING_FILE"; it should be close to the end of the file. The only thing that you should need to edit is changing `doortuning-example` to whatever you name your doortuning resource.
 
 ### doortuning.ymt
-This file defines door behaviors and links specific door models to the desired door behavior.
+This file defines door behaviors and links specific door models to the desired door behavior. 
+
+NOTE: Do not try to export / import the doortuning.ymt with codewalker. Just leave it in an XML format under the .ymt extension and everything will work as it should.
 
 #### NamedTuningArray
 This section is where door behaviors are defined. These definitions can be used across multiple doors without needing to redefine the same parameters.
@@ -76,3 +78,5 @@ This section is where specific door models are linked with a defined Named Tunin
     - Name of a given door model
   - \<TuningName\>
     - The \<Name\> of a NamedTuning that you want the specified door model to inherits its behavior from
+
+###
